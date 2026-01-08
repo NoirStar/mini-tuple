@@ -1,0 +1,3 @@
+H:/dev/cpp/mini-tuple/build/CMakeFiles/test_tuple.dir
+H:/dev/cpp/mini-tuple/build/CMakeFiles/ALL_BUILD.dir
+H:/dev/cpp/mini-tuple/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^H:\DEV\CPP\MINI-TUPLE\BUILD\CMAKEFILES\25627EF87A0F100D2FA748108DB4CDB8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/dev/cpp/mini-tuple -BH:/dev/cpp/mini-tuple/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/dev/cpp/mini-tuple/build/mini-tuple.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
